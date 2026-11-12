@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    env_file: .env
+    ports:
+      - "127.0.0.1:8125:8000"
+    volumes:
+      - risklatch-data:/app/data
+    restart: unless-stopped
+volumes:
+  risklatch-data:
