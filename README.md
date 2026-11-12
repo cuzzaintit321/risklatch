@@ -1,3 +1,5 @@
+![RiskLatch](assets/cover.png)
+
 # RiskLatch v1.0 — single-organization prototype
 
 Run `./setup.sh` on a Docker Compose host with OpenSSL. Open http://localhost:8125 (or use SSH port forwarding). The generated admin password is printed and stored in .env. For HTTPS deployment set SECURE_COOKIE=1 and configure your reverse proxy. Do not expose plain HTTP. Back up the named data volume securely.
